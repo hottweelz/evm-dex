@@ -57,7 +57,7 @@ const SelectToken = ({ tokenModalOpen, setTokenModalOpen, selectedToken, setSele
           >
             <img src={'/icons/close.svg'} alt="close icon" />
           </IconButton>
-          <Typography variant='subtitle3'>Select token</Typography>
+      <Typography variant='subtitle2'>Select token</Typography>
           <Input
             placeholder='search'
             startAdornment={<img src={'/icons/search.svg'} alt="search icon" />}
